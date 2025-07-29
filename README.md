@@ -1,41 +1,46 @@
-🎥***YouTube Chat Pro***
+🎥 ***YouTube Chat Pro***
 An AI-powered tool built on RAG (Retrieval-Augmented Generation) architecture that helps you learn smarter from YouTube videos. 📚💡🤖
 
-🚀 **Overview**
+
+
+🚀 ***Overview***
 YouTube Chat Pro enables users to extract meaningful insights from YouTube videos by leveraging advanced AI techniques. Simply input a video URL, and the system provides:
 
-📄 **Summaries** – Concise overviews of video content.
+📄 **Summaries** – Concise overviews of the video content.
 
-📝 **Structured Notes** – Useful notes generated from the video to support revision or reference.
+📝 **Structured Notes** – Automatically generated notes to support revision or reference.
 
-❓ **Question Generation** – Critical questions designed to enhance comprehension.
+❓ **Question Generation** – Thought-provoking questions to enhance comprehension.
 
-💬 **Interactive Q&A** – Ask custom questions and get context-aware answers instantly.
+💬 **Interactive Q&A** – Ask custom questions and receive intelligent, context-aware answers.
 
-🧠 **Tech Stack**
+
 
 🔧 **Backend**
 
-**LangChain** – Orchestrates the RAG pipeline and enables modular LLM operations.
+LangChain – Powers the RAG pipeline for modular and flexible LLM workflows.
 
-**FastAPI** – Provides a fast, async web framework for serving the API.
+FastAPI – Fast, asynchronous Python web framework for building the API.
 
-**OpenAI Embeddings** – Used for converting video transcripts into vector representations for retrieval.
+OpenAI Embeddings – Converts video data into high-quality vector embeddings.
 
-**RecursiveCharacterTextSplitter** – Efficiently splits large text into meaningful chunks for better context handling.
+RecursiveCharacterTextSplitter – Breaks large text into context-preserving chunks.
 
-**FAISS Database** – Custom-built vector database used for storing and retrieving processed video data.
+FAISS (Vector Database) – Vector database for efficient storage and retrieval of semantic information.
 
 💻 **Frontend**
-HTML, CSS, JavaScript – Responsive UI to load videos, interact with the app, and display results dynamically.
+HTML, CSS, JavaScript – Simple and responsive UI to load videos and interact with the app.
+
+
 
 📂 **Future Improvements**
 
-🔍 Add support for video search by topic
+🔗 Bookmark & Highlighting System – Let users save important parts of the video content.
 
-🌍 Multilingual transcript support
+🌍 Multilingual transcript support.
 
-🧠 Fine-tuning for domain-specific content (e.g., medical, legal)
+🧠 Fine-tuning for domain-specific content (e.g., medical, legal).
+
 
 📌 **Getting Started**
 You can run YouTube Chat Pro locally using Docker:
