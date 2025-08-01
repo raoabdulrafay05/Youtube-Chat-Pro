@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Analytics Pro</title>
+    <link rel="stylesheet" href="/static/index.css" />
+    <script src="/static/script.js"></script>
+  </head>
+  <body>
+    <div class="tool-container">
+      <h1 class="tool-heading">YouTube Chatbot Pro</h1>
+
+      <div class="url-section">
+        <p>Enter URL (must contain english captions)</p>
+        <input type="text" placeholder="Enter URL here" class="input-url" />
+      </div>
+
+      <div class="action-buttons">
+        <p>Select Action</p>
+        <button type="button" class="btn-summary">Get Summary</button>
+        <button type="button" class="btn-notes">Get Notes</button>
+        <button type="button" class="btn-question">Generate Question</button>
+      </div>
+
+      <div class="ask-question">
+        <p>Ask a Question (Optional)</p>
+        <input
+          type="text"
+          placeholder="What is this about?"
+          class="input-question"
+        />
+        <br /><br />
+        <button type="button" class="btn-answer">Get Answer</button>
+      </div>
+
+      <div class="result-section">
+        <h2>Result</h2>
+
+        <!-- Progress Bar -->
+        <div class="progress-wrapper" style="display: none">
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+          <p class="progress-label">
+            Processing: <span class="progress-percent">0%</span>
+          </p>
+        </div>
+
+        <!-- Loading UI -->
+        <div class="loading-wrapper" style="display: none">
+          <div class="loading-card">
+            <div class="spinner"></div>
+            <p class="loading-message">Generating content, please wait...</p>
+          </div>
+        </div>
+
+        <textarea
+          class="result-box"
+          rows="8"
+          placeholder="Result will appear here..."
+          readonly
+        ></textarea>
+      </div>
+    </div>
+  </body>
+</html>
